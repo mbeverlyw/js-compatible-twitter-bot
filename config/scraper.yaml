@@ -1,0 +1,34 @@
+Logger:
+  path: logs/bot.log
+  size: 10000
+  max_rollover: 5
+
+Database:
+  type: sqlite
+  uri: bot.sqlite
+
+Browser:
+  Headers:
+    Accept: application/json, text/javascript, */*; q=0.01
+    Referer: https://twitter.com/${USERNAME}
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+    X-Twitter-Active-User: yes
+    X-Requested-With: XMLHttpRequest
+    Accept-Language: en-US
+
+
+Twitter:
+  Credentials:
+    username: None
+    password: None
+
+  Paths:
+    domain: https://twitter.com
+    login: /login
+    session: /sessions
+    profile: /${USERNAME}
+    followers: /${USERNAME}/followers
+    following: /${USERNAME}/following
+    notifications: /i/connect
+
+  

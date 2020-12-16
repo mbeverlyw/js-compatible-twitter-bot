@@ -1,0 +1,8 @@
+logs/bot.log
+TwitterBot/__pycache__/config.cpython-38.pyc
+TwitterBot/__pycache__/_logger.cpython-38.pyc
+TwitterBot/__pycache__/__init__.cpython-38.pyc
+TwitterBot/scraper/__pycache__/__init__.cpython-38.pyc
+TwitterBot/scraper/__pycache__/followers.cpython-38.pyc
+TwitterBot/scraper/__pycache__/following.cpython-38.pyc
+TwitterBot/scraper/__pycache__/notifications.cpython-38.pyc

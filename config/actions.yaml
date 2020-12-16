@@ -1,0 +1,24 @@
+Command Legend:
+  reply: ${REPLY}
+  retweet: ${RETWEET}
+
+Available Actions:
+  findfrens: ${RETWEET}
+  rip: ${RETWEET}
+  help: >-
+    "${REPLY}
+    ! Invalid Command Detected !
+    
+    Available Commands:
+    1. Find Frens - Fren Request is retweeted
+    2. RIP - Banned Acc notice is retweeted"
+
+Exception Responses:
+  invalid_cmd: >-
+    "${REPLY}
+    ! Invalid Command Detected !
+    
+    Available Commands:
+    1. Find Frens - Fren Request is retweeted
+    2. RIP - Banned Acc notice is retweeted"
+
