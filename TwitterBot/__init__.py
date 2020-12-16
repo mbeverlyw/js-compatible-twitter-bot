@@ -4,5 +4,8 @@ from .scraper import (
     following,
     notifications,
 )
+from .db.db_handler import Database
+
+
 
 

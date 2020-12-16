@@ -5,3 +5,7 @@ TwitterBot/scraper/__pycache__/__init__.cpython-38.pyc
 TwitterBot/scraper/__pycache__/followers.cpython-38.pyc
 TwitterBot/scraper/__pycache__/following.cpython-38.pyc
 TwitterBot/scraper/__pycache__/notifications.cpython-38.pyc
+TwitterBot/db/__pycache__/db_handler.cpython-38.pyc
+TwitterBot/db/__pycache__/__init__.cpython-38.pyc
+db.sqlite
+logs/bot.log

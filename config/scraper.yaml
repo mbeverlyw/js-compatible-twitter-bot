@@ -5,7 +5,7 @@ Logger:
 
 Database:
   type: sqlite
-  uri: bot.sqlite
+  uri: sqlite:///db.sqlite
 
 Browser:
   Headers:
