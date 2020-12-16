@@ -1,0 +1,6 @@
+[2020-12-15 18:20:16,511][TwitterBot.scraper.notifications{get_notifications:7}][INFO]: Getting Notifications
+[2020-12-15 18:20:16,512][TwitterBot.scraper.followers{get_followers:7}][INFO]: Getting Followers
+[2020-12-15 18:20:16,513][TwitterBot.scraper.following{get_following:7}][INFO]: Getting Following
+[2020-12-15 18:21:04,950][TwitterBot.scraper.notifications {get_notifications:7}][INFO]: Getting Notifications
+[2020-12-15 18:21:04,951][TwitterBot.scraper.followers { get_followers:7 }][INFO]: Getting Followers
+[2020-12-15 18:21:04,951][TwitterBot.scraper.following ( get_following:7 )] [INFO]: Getting Following
