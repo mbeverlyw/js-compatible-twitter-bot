@@ -4,8 +4,8 @@ from .scraper import (
     following,
     notifications,
 )
-from .db.db_handler import Database
+from .db import initialize_db, Database
 
 
-
+initialize_db()
 

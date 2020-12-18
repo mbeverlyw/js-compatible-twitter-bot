@@ -15,3 +15,4 @@ TwitterBot/config/__pycache__/actions.cpython-38.pyc
 TwitterBot/config/__pycache__/base.cpython-38.pyc
 TwitterBot/config/__pycache__/scraper.cpython-38.pyc
 logs/bot.log
+TwitterBot/db/__pycache__/_base.cpython-38.pyc
