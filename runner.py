@@ -13,5 +13,6 @@ def main():
         sc.get_database_type(), dbname=sc.get_database_uri()
         )
 
+
 if __name__ == "__main__":
     main()

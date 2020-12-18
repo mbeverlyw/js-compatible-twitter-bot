@@ -1,36 +1,4 @@
-import yaml
-
-
-CONFIG_DIR= "config/"
-CONFIG_FILE = {
-    'scraper': 'scraper.yaml',
-    'actions': 'actions.yaml',
-}
-    
-
-class Config:
-    def __init__(self):
-        self.path = str()
-        self.data = dict()
-
-    def get_config_data(self):
-        with open(self.path, "r") as stream:
-            self.data = yaml.safe_load(stream)
-    
-
-class ActionsConfig(Config):
-    def __init__(self):
-        self.path = CONFIG_DIR + CONFIG_FILE['actions']
-        self.get_config_data()
-
-    def get_command_legend(self):
-        return self.data['Command Legend']
-    
-    def get_available_actions(self):
-        return self.data['Available Actions']
-    
-    def get_exception_responses(self):
-        return self.data['Exception Responses']
+from ._base import CONFIG_DIR, CONFIG_FILE, Config
 
 
 class ScraperConfig(Config):
@@ -39,7 +7,7 @@ class ScraperConfig(Config):
         self.get_config_data()
 
     def get_twitter_config(self):
-        return self.data['Twitter']
+        return self.config['Twitter']
     
     def get_twitter_credentials(self):
         return self.get_twitter_config()['Credentials']
@@ -75,13 +43,13 @@ class ScraperConfig(Config):
         return self.get_twitter_paths()['notifications']
 
     def get_browser_config(self):
-        return self.data['Browser']
+        return self.config['Browser']
 
     def get_browser_headers(self):
         return self.get_browser_config()['Headers']
 
     def get_database_config(self):
-        return self.data['Database']
+        return self.config['Database']
     
     def get_database_type(self):
         return self.get_database_config()['type']
@@ -90,7 +58,7 @@ class ScraperConfig(Config):
         return self.get_database_config()['uri']
 
     def get_logger_config(self):
-        return self.data['Logger']
+        return self.config['Logger']
     
     def get_logger_path(self):
         return self.get_logger_config()['path']
@@ -101,5 +69,3 @@ class ScraperConfig(Config):
     def get_logger_max_rollover(self):
         return self.get_logger_config()['max_rollover']
 
-
-    

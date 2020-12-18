@@ -9,3 +9,9 @@ TwitterBot/db/__pycache__/db_handler.cpython-38.pyc
 TwitterBot/db/__pycache__/__init__.cpython-38.pyc
 db.sqlite
 logs/bot.log
+TwitterBot/config/__pycache__/__init__.cpython-38.pyc
+TwitterBot/config/__pycache__/_base.cpython-38.pyc
+TwitterBot/config/__pycache__/actions.cpython-38.pyc
+TwitterBot/config/__pycache__/base.cpython-38.pyc
+TwitterBot/config/__pycache__/scraper.cpython-38.pyc
+logs/bot.log
